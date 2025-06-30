@@ -97,6 +97,10 @@ h2 {
     color: var(--secondary-accent-color);
 }
 
+#contact .table-danger * {
+    background-color: transparent;
+}
+
 /* grid visualisaiton for testing */
 /*
 .container,
