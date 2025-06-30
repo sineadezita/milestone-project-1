@@ -63,6 +63,40 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Portfolio cards */
+
+/* Footer / contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: var(--secondary-color);
+}
+
+#contact .sub-heading-color {
+    color: var();
+}
+
+#contact i {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--accent-color);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-accent-color);
+}
+
 /* grid visualisaiton for testing */
 /*
 .container,
