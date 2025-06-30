@@ -23,12 +23,40 @@
     <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="light">
+        <div class="container">
+            <!-- Add logo image -->
+          <a class="navbar-brand" href="index.html">
+            Elegant Interiors</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <!-- Header -->
-    <header class="container">
+    <header class="container section">
         <div class="row">
-            <div class="col-12 col-xl-6">Elegant Interiors</div>
+            <div class="col-12 col-xl-6 text-center text-xl-start">
+                <h1 class="display-3">Portfolio</h1>
+                <p class="lead-display-6 sub-heading-color">Discover the design behind the beauty.</p>
+            </div>
         </div>
     </header>
 
