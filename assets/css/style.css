@@ -21,12 +21,29 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.sub-heading-color {
+    color: var(--accent-color);
+    font-size: 18px;
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
+
 #navbar {
     background-color: var(--primary-color);
+}
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
 }
 
 /* grid visualisaiton for testing */
