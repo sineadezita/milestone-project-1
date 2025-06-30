@@ -24,6 +24,10 @@ h3 {
     color: var(--secondary-color);
 }
 
+h2 {
+    margin-bottom: 2rem;
+}
+
 .sub-heading-color {
     color: var(--accent-color);
     font-size: 18px;
@@ -44,6 +48,19 @@ h3 {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/* Services */
+
+#services .card-footer {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    color: var(--accent-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
 }
 
 /* grid visualisaiton for testing */
