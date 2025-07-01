@@ -101,6 +101,8 @@ h2 {
     background-color: transparent;
 }
 
+
+
 /* grid visualisaiton for testing */
 /*
 .container,
@@ -123,7 +125,7 @@ h2 {
 }
 
 /* Large devices (small laptops, 992px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     #services .card-body {
         min-height: auto;
     }
