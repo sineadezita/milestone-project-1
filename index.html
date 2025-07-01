@@ -10,7 +10,11 @@
     <title>Elegance</title>
 
     <!-- Favicon -->
-
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
@@ -54,19 +58,17 @@
         </div>
       </nav>
 
-    <!-- Header -->
-    <header id="header" class="container section">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 text-center text-xl-start">
-                <h1 class="display-3">Elegance</h1>
-                <p class="lead-display-6 sub-heading-color">Your dream space starts here!</p>
-                <a href="booking.html" class="btn btn-primary mb-4">Book now</a>
-            </div>
-        </div>
-    </header>
 
     <!-- Main element to hold all key sections of the home page. It is part of the grid structure -->
     <main>
+        <section id="interior">
+            <div id="cover-text">
+                <h1 class="display-3">Elegance</h1>
+                <p class="lead sub-heading-color">Your dream space starts here!</p>
+                <a href="booking.html" class="btn btn-primary mb-4">Book now</a>
+            </div>
+          </section>
+
         <!-- Service Section -->
         <section id="services" class="container section">
             <div class="row">
@@ -154,26 +156,30 @@
                     <h3 class="sub-heading-color">Contact info</h3>
                     <address>
                         <strong><i class="fa-solid fa-location-dot"></i>Elegance</strong><br>
-                        44 Elegance Street<br>
+                        44 Elegance Street,<br>
                         Elegance City, 4848
                     </address>
                     <p><i class="fa-solid fa-phone"></i>012 345 6789<br>
-                        info@elegance.co</p>
+                        <i class="fa-solid fa-envelope"></i>info@elegance.co</p>
+                        <!-- Social links -->
                         <div class="social-links my-4">
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page (opens in new tab)">
+                                <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            <!-- Instagram -->
                             <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page (opens in new tab)">
                             <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page (opens in new tab)">
-                            <i class="fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="https://x.com/?lang=en" target="_blank" aria-label="Visit our x feed (opens in new tab)">
-                            <i class="fa-brands fa-x-twitter"></i>
+                            <!-- Pinterest -->
+                            <a href="https://pinterest.com/?lang=en" target="_blank" aria-label="Visit our x feed (opens in new tab)">
+                            <i class="fa-brands fa-pinterest"></i>
                             </a>
                         </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>   
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
