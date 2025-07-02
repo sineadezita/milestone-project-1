@@ -7,10 +7,11 @@
     modern sophistication. Discover bespoke interior design solutions crafter for comfort, beauty and your unique vision.">
     
     <!-- Title -->
-    <title>Portfolio</title>
+    <title>Elegance</title>
 
     <!-- Favicon -->
-
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.png">
+    
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
@@ -22,46 +23,45 @@
 
     <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 <body class="d-flex flex-column min-vh-100">
+
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="light">
+    <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container">
             <!-- Add logo image -->
-          <a class="navbar-brand" href="index.html">
-            Elegance</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/images/elegance logo.png" alt="Elegance logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="index.html#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html#contact">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a href="booking.html" class="btn btn-primary ms-lg-3">Book now</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
-    <!-- Header -->
-    <header class="container section">
-        <div class="row">
-            <div class="col-12 col-xl-6 text-center text-xl-start">
-                <h1 class="display-3">Portfolio</h1>
-                <p class="lead-display-6 sub-heading-color">Discover the design behind the beauty.</p>
-            </div>
+    
+    <!-- Main element to hold all key sections of the home page. It is part of the grid structure -->
+    <!-- Interior -->
+    <section id="interior">
+        <div id="cover-text">
+            <h1 class="display-3">Portfolio</h1>
+            <p class="lead sub-heading-color">Discover the design behind the beauty.</p>
+            <a href="booking.html" class="btn btn-primary mb-4">Book now</a>
         </div>
-    </header>
+      </section>
 
     <!-- Main element to hold all key sections of the home page. It is part of the grid structure -->
     <main>
