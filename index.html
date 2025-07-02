@@ -10,10 +10,7 @@
     <title>Elegance</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.png">
     
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
@@ -28,12 +25,13 @@
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="light">
+    <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container">
             <!-- Add logo image -->
+             <img src="" alt="Chair icon">
           <a class="navbar-brand" href="index.html">
-            Elegance</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            Ele</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -50,9 +48,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
-              <li class="nav-item">
-                <a href="booking.html" class="btn btn-primary ms-lg-3">Book now</a>
-              </li>
             </ul>
           </div>
         </div>
@@ -60,7 +55,7 @@
 
 
     <!-- Main element to hold all key sections of the home page. It is part of the grid structure -->
-    <main>
+    <!-- Interior -->
         <section id="interior">
             <div id="cover-text">
                 <h1 class="display-3">Elegance</h1>
@@ -70,15 +65,18 @@
           </section>
 
         <!-- Service Section -->
+    <main>
         <section id="services" class="container section">
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="display-6">Services</h2>
                 </div>
+
+            <!-- Service 1 -->
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
                         <img src="assets/images/residential.jpeg" class="card-img-top"
-                            alt="bubble">
+                            alt="Residential Design">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Residential Design</h3>
                             <p class="card-text">
@@ -91,10 +89,11 @@
                         </div>
                     </div>
                 </div>
+            <!-- Service 2 -->
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
                         <img src="assets/images/commercial.jpeg" class="card-img-top"
-                            alt=""/>
+                            alt="Commercial Design"/>
                         <div class="card-body">
                             <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
                             <h3 class="card-title sub-heading-color">Commercial Design</h3>
@@ -109,9 +108,11 @@
                         </div>
                     </div>
                 </div>
+
+            <!-- Service 3-->
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img src="assets/images/space.jpeg" class="card-img-top">
+                        <img src="assets/images/space.jpeg" class="card-img-top" alt="Space planning">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Space Planning</h3>
                             <p class="card-text">
@@ -123,13 +124,15 @@
                             <p class="mb-0">Contact for prices</p>
                         </div>
                     </div>
+
+            <!-- Service 4 -->
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
                         <img src="assets/images/fabrics.jpeg" class="card-img-top"
-                            alt="">
+                            alt="Interiors consultation">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Color and Material Consultaion</h3>
+                            <h3 class="card-title sub-heading-color">Interiors Consultaion</h3>
                             <p class="card-text">
                                 Help clients choose color palettes, finishes, fabrics, lighting, flooring,
                                 and other materials to bring a cohesive vision to life.
@@ -148,34 +151,34 @@
     <!-- mt-auto added to push footer to bottom of page -->
     <footer id="contact" class="mt-auto">
         <div class="container section">
-            <div class="row justify content center">
-                <div class="col-12 text-center">
-                </div>
-                <!-- Contact info-->
-                <div class="col-12 col-md-6 col-xl-4">
+            <div class="row justify-content-between text-center text-lg-start">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <!-- Contact info -->
                     <h3 class="sub-heading-color">Contact info</h3>
                     <address>
-                        <strong><i class="fa-solid fa-location-dot"></i>Elegance</strong><br>
-                        44 Elegance Street,<br>
-                        Elegance City, 4848
+                        <i class="fa-solid fa-location-dot"></i>44 Elegance Street, Elegance City
                     </address>
-                    <p><i class="fa-solid fa-phone"></i>012 345 6789<br>
-                        <i class="fa-solid fa-envelope"></i>info@elegance.co</p>
-                        <!-- Social links -->
-                        <div class="social-links my-4">
-                            <!-- Facebook -->
-                            <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page (opens in new tab)">
-                                <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            <!-- Instagram -->
-                            <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page (opens in new tab)">
-                            <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <!-- Pinterest -->
-                            <a href="https://pinterest.com/?lang=en" target="_blank" aria-label="Visit our x feed (opens in new tab)">
-                            <i class="fa-brands fa-pinterest"></i>
-                            </a>
-                        </div>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>012 345 6789<br>
+                        <i class="fa-solid fa-envelope"></i>info@elegance.co
+                    </p>
+                </div>
+                 <!-- Social links -->
+                <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <div class="social-links d-flex gap-3">
+                     <!-- Facebook -->
+                     <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page (opens in new tab)">
+                       <i class="fa-brands fa-facebook"></i>
+                     </a>
+                     <!-- Instagram -->
+                     <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page (opens in new tab)">
+                      <i class="fa-brands fa-instagram"></i>
+                     </a>
+                     <!-- Pinterest -->
+                     <a href="https://pinterest.com/?lang=en" target="_blank" aria-label="Visit our x feed (opens in new tab)">
+                      <i class="fa-brands fa-pinterest"></i>
+                      </a>
+                    </div>
                 </div>
             </div>
         </div>
