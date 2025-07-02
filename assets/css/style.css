@@ -67,7 +67,7 @@ h2 {
     vertical-align: middle;
 }
 
-/* Interior Section */
+/* Interior Section / Header */
 
 #interior {
     height: 350px;
@@ -85,7 +85,7 @@ h2 {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
