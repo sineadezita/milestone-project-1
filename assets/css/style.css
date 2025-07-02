@@ -51,13 +51,20 @@ h2 {
     padding: 0.75rem 1.2rem;
     font-size: 1rem;
     color:#333333;
-    transition: background 0.3s, border 0.3s;
+    transition: background-color 0.3s, border 0.3s;
 }
 
 #navbar .btn-primary:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
+}
+
+.navbar-brand img {
+    height: 37px;
+    width: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
 }
 
 /* Interior Section */
