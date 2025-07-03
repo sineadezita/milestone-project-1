@@ -139,6 +139,17 @@ h2 {
     background-color: transparent;
 }
 
+/* Portfolio */
+
+#portfolio img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#portfolio img:hover {
+    transform: scale(1.03);
+}
+
 /* Footer / contact */
 
 #contact {
