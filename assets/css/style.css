@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&display=swap');
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 
 /* CSS Variables */
 :root {
@@ -51,6 +56,8 @@ h2 {
     padding: 0.75rem 1.2rem;
     font-size: 1rem;
     color:#333333;
+    -webkit-transition: background-color 0.3s, border 0.3s;
+    -o-transition: background-color 0.3s, border 0.3s;
     transition: background-color 0.3s, border 0.3s;
 }
 
@@ -73,9 +80,15 @@ h2 {
     height: 350px;
     background: url("../images/bgh.jpg") no-repeat center center/cover;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #fff;
     overflow: hidden;
     text-align: center;
@@ -106,6 +119,8 @@ h2 {
     font-weight: 600;
     padding: 0.75rem 1.5rem;
     color:#333333;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -119,17 +134,25 @@ h2 {
 
 #services .card {
     margin-bottom: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    -o-transition: transform 0.3s;
     transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 #services .card:hover {
-    transform: translate(-5px);
+    -webkit-transform: translate(-5px);
+        -ms-transform: translate(-5px);
+            transform: translate(-5px);
 }
 
 #services .card-img-top {
     height: 200px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 #services .card-footer {
@@ -142,12 +165,18 @@ h2 {
 /* Portfolio */
 
 #portfolio img {
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
     transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
     cursor: pointer;
 }
 
 #portfolio img:hover {
-    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
 }
 
 /* Booking Form */
@@ -158,6 +187,8 @@ h2 {
     font-weight: 600;
     padding: 0.75rem 1.5rem;
     color:#333333;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -194,6 +225,8 @@ h2 {
 #contact .social-links a i {
     color: var(--secondary-color);
     font-size: 1.8rem;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
     transition: color 0.3s;
 }
 
