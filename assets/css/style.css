@@ -171,7 +171,11 @@ h2 {
 
 #contact {
     background-color: var(--primary-color);
-    padding-bottom: 2rem 0;
+    padding-bottom: 3rem 0;
+}
+
+#contact .container {
+    margin-top: 1rem;
 }
 
 #contact h3 {
