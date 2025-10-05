@@ -70,6 +70,33 @@ The website was tested on multiple browsers to confirm consistent appearance and
 
 No layer of functional discrepencies on multiple browsers to confirm consistent appearance and functionality.
 
+### Responsive Testing
+
+The site was tested on the following devices and screen sizes:
+
+### Validator Testing
+
+#### HTML
+
+#### CSS
+
+
+## Unfixed Bugs
+
+## Deployment
+The site was deployed using **GitHub Pages**
+
+### Deployment Steps
+1. Navigate to the project repository on GitHub
+2. Go to the **Settings** tab.
+3. Scroll down to the **Pages** section.
+4. Under **Source**, select the `main` branch and `/root` folder.
+5. Click **Save**.
+6. Github will display a confirmation ribbon once the deployment is successful.
+
+The live site can be viewed here:
+
+
 ## Demo
 
 **Demo:** https://sineadezita.github.io/milestone-project-1/
