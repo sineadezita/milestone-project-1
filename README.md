@@ -94,19 +94,18 @@ The site was deployed using **GitHub Pages**
 5. Click **Save**.
 6. Github will display a confirmation ribbon once the deployment is successful.
 
-The live site can be viewed here:
+The live site can be viewed here:  https://sineadezita.github.io/milestone-project-1/
 
+## Credits
 
-## Demo
+### Content
+- All written text and descriptions were created by the developer
+- Navigation menu sourced from bootstrap [Bootstrap 5](https://getbootstrap.com/)
+- CSS layout inspiration was adapted from [Code Institute's Love Running walkthrough](https://code-institute-org.github.io/love-running-2.0/)
+- Font icons used are provided by [Font Awesome](https://fontawesome.com/)
 
-**Demo:** https://sineadezita.github.io/milestone-project-1/
-
-## Built with
-- **HTML**
-- **CSS**
-- **Bootstrap 5**
-- **Google Fonts**
-- **Fonts Awesome**
-
+### Media 
+- Images sourced from [Upsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/) (free-to-use interior design photography)
+- Logo created using [Canva](https://www.canva.com)
 
 
