@@ -186,6 +186,16 @@ h2 {
     transition: background-color 0.3s ease-in-out;
 }
 
+/* Booking Page Hero Text Styling */
+
+#interior p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #booking-form .btn-primary:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -253,5 +263,13 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+}
+
+/* Mobile overrides */
+@media (max-width: 768px) {
+    #interior p {
+        font-size: 1rem !important;
+        line-height: 1.4;
     }
 }
